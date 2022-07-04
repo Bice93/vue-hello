@@ -15,5 +15,20 @@ main{
 }
 
 main input{
-    margin: 20px 0;
+    margin: 20px 40px;
+}
+
+.ms_img{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.box_button{
+    text-align: center;
+    margin: 10px 0;
+}
+
+button{
+    padding: 3px 15px;
+    font-size: 18px;
 }

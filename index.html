@@ -18,12 +18,15 @@
 
     <main>
         <div id="root">
-            <input type="text" v-model="message" placeholder="Messaggio....">
+            <input type="text" v-model="messageInput" placeholder="Messaggio...">
+            <input type="text" v-model="imageSourceInput" placeholder="Inserisci l'immagine...">
             <h1> {{ message }} </h1>
+            <img :src="imageSource" alt="" class="ms_img">
+            <div class="box_button">
+                <button @click="sendData" >Invia</button>
+            </div>
         </div>
     </main>
-
-
 
     <!-- .............JS.................... -->
     <script src="main.js"></script>
